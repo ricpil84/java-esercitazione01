@@ -36,7 +36,8 @@ public class TipoCapoAbbigliamento {
      * @return valore dell'attributo costo meno lo sconto applicato
      */
     public double applicaSconto(float sconto){
-        return this.costo*=1-(sconto/100);
+        double costo = this.costo*=(1-sconto/100);
+        return costo;
     }
     /**
      * Metodo per modificare il costo di un oggetto TipoCapoAbbigliamento
