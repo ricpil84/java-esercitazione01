@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="es1.gruppo4:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/es1_gruppo4_jar</output-path>
+    <root id="archive" name="es1.gruppo4.jar">
+      <element id="module-output" name="es1.gruppo4" />
+    </root>
+  </artifact>
+</component>
